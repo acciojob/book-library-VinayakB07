@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.book-library{
+	display:flex;
+	flex-direction:column;
+}
+h1{
+	width:300px;
+	text-align:center;
+	background-color:#f8f8f8;
+	margin-bottom:20px;
+}
+.book{
+	
+	width:300px;
+	background-color:#f8f8f8;
+	display:flex;
+	flex-direction:column;
+}
+.book img{
+	width:100px;
+	padding-left:100px;
+	padding-top:10px
+}
